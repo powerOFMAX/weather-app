@@ -1,6 +1,18 @@
-# vue-weather
+# Weather App / VueJs
+Weather app that consumes [OpenWeatherMap](https://openweathermap.org/) API
 
+![App](src/assets/preview.png)
+
+## Tree
+```
+.
+├── public
+└── src
+    └── assets
+```
 ## Project setup
+Copy the env-example file and fill it with your credentials `cp env-example .env`.
+
 ```
 yarn install
 ```
@@ -19,6 +31,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
